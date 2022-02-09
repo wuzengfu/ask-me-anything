@@ -1,0 +1,51 @@
+@charset "utf-8";
+#displayId {
+    font-family: 'Montserrat';
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.answered-btn{
+    opacity: 0.7;
+}
+
+
+#question-input {
+    width: 100%;
+    margin: auto;
+}
+
+label {
+    color: white;
+    font-family: "Baloo Tamma 2", cursive;
+    font-size: 1.2em;
+}
+
+#display-questions {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#information {
+    color: white;
+    font-family: "Baloo Tamma 2", cursive;
+    margin-left: 13%;
+}
+
+.card-title{
+    font-size: 0.9rem;
+}
+
+.card-header{
+    padding-left: 4% !important;
+    padding-top:3% !important;
+    padding-bottom: 3% !important;
+}
+
+.card-body{
+    padding-left: 4% !important;
+    padding-bottom: 2% !important;
+    padding-right: 2% !important;
+}
+
+

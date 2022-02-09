@@ -1,0 +1,253 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* form styles */
+
+#sessionInput {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    padding: 7px;
+    font-family: 'Montserrat';
+    z-index: 9;
+}
+
+#session-id-input {
+    width: 100%;
+}
+
+#submit-button {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* text styles */
+
+#welcome {
+    font-size: 1.5em;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+    z-index: 9;
+}
+
+#link {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*animated background styles*/
+.qnmark {
+    font-size: 7em;
+}
+
+.qnmark div {
+    position: absolute;
+    display: block;
+}
+
+.qnmark div:nth-child(1) {
+    left: 20%;
+    animation: fall 15s linear infinite;
+    animation-delay: -2s;
+}
+
+.qnmark div:nth-child(2) {
+    left: 70%;
+    color: yellow;
+    animation: fall 15s linear infinite;
+    animation-delay: -4s;
+}
+
+.qnmark div:nth-child(3) {
+    left: 10%;
+    color: maroon;
+    animation: fall 20s linear infinite;
+    animation-delay: -7s;
+}
+
+.qnmark div:nth-child(4) {
+    left: 50%;
+    color: gold;
+    animation: fall 18s linear infinite;
+    animation-delay: -10s;
+}
+
+.qnmark div:nth-child(5) {
+    left: 85%;
+    color: khaki;
+    animation: fall 10s linear infinite;
+    animation-delay: -5s;
+}
+
+.qnmark div:nth-child(6) {
+    left: 15%;
+    color: honeydew;
+    animation: fall 16s linear infinite;
+    animation-delay: -5s;
+}
+
+.qnmark div:nth-child(7) {
+    left: 90%;
+    color: royalblue;
+    animation: fall 15s linear infinite;
+    animation-delay: -4s;
+}
+
+.qnmark div:nth-child(8) {
+    left: 25%;
+    color: teal;
+    animation: fall 10s linear infinite;
+    animation-delay: -10s;
+}
+
+.qnmark div:nth-child(9) {
+    left: 45%;
+    color: limegreen;
+    animation: fall 10s linear infinite;
+    animation-delay: -7s;
+}
+
+.qnmark div:nth-child(10) {
+    left: 55%;
+    color: tomato;
+    animation: fall 14s linear infinite;
+    animation-delay: -8s;
+}
+
+.qnmark div:nth-child(11) {
+    left: 60%;
+    color: orange;
+    animation: fall 10s linear infinite;
+    animation-delay: -9s;
+}
+
+.qnmark div:nth-child(12) {
+    left: 30%;
+    color: red;
+    animation: fall 20s linear infinite;
+    animation-delay: -20s;
+}
+
+.qnmark div:nth-child(13) {
+    left: 50%;
+    color: aqua;
+    animation: fall 15s linear infinite;
+    animation-delay: -11s;
+}
+
+.qnmark div:nth-child(14) {
+    left: 20%;
+    color: hotpink;
+    animation: fall 10s linear infinite;
+    animation-delay: -7s;
+}
+
+.qnmark div:nth-child(15) {
+    left: 10%;
+    color: greenyellow;
+    animation: fall 12s linear infinite;
+    animation-delay: -7s;
+}
+.qnmark div:nth-child(16) {
+    left: 95%;
+    color: chocolate;
+    animation: fall 12s linear infinite;
+    animation-delay: -7s;
+}
+.qnmark div:nth-child(17) {
+    left: 90%;
+    color: mediumorchid;
+    animation: fall 15s linear infinite;
+    animation-delay: -15s;
+}
+
+.qnmark div:nth-child(18) {
+    left: 47%;
+    color: thistle;
+    animation: fall 15s linear infinite;
+    animation-delay: -15s;
+}
+
+.qnmark div:nth-child(19) {
+    left: 60%;
+    color: crimson;
+    animation: fall 15s linear infinite;
+    animation-delay: -15s;
+}
+
+.qnmark div:nth-child(20) {
+    left: 80%;
+    color: deepskyblue;
+    animation: fall 8s linear infinite;
+    animation-delay: -5s;
+}
+
+.qnmark div:nth-child(21) {
+    left: 5%;
+    color: mediumorchid;
+    animation: fall 12s linear infinite;
+    animation-delay: -8s;
+}
+
+.qnmark div:nth-child(22) {
+    left: 77%;
+    color: salmon;
+    animation: fall 8s linear infinite;
+    animation-delay: -8s;
+}
+.qnmark div:nth-child(23) {
+    left: 20%;
+    color: springgreen;
+    animation: fall 8s linear infinite;
+    animation-delay: -8s;
+}
+.qnmark div:nth-child(24) {
+    left: 7%;
+    color: orangered;
+    animation: fall 10s linear infinite;
+    animation-delay: -8s;
+}
+.qnmark div:nth-child(25) {
+    left: 48%;
+    color: sandybrown;
+    animation: fall 12s linear infinite;
+    animation-delay: -5s;
+}
+/*makes the pictures fall */
+
+@keyframes fall {
+    0% {
+        opacity: 1;
+        top: -10%;
+        transform: rotate(0deg);
+    }
+    20% {
+        opacity: 0.8;
+        transform: rotate(45deg);
+    }
+    40% {
+        transform: rotate(90deg);
+    }
+    60% {
+        transform: rotate(135deg);
+    }
+    80% {
+        transform: rotate(180deg);
+    }
+    100% {
+        top: 80%;
+        transform: rotate(225deg);
+    }
+}
+

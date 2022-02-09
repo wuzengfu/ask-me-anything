@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AMA</title>
+    <script src="js/owner.js"></script>
+    <link rel="stylesheet" href="../website/css/owner.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #46178f; overflow: hidden;">
+    <div class="qnmark">
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+        <div>?</div>
+    </div>
+    <p>Hello, Owner!</p>
+    <div id="owner" class="mr-4 ml-4 mb-md-5">
+        <form name="sessionForm" class="col-md-8 float-left p-3 mb-1">
+            <label for="session-id" class="mt-1 font-weight-bold">Session Id: </label>
+            <input type="text" id="session-id" class="form-control" minlength="10" maxlength="10" required/>
+            <label for="owner-id" class="mt-3 font-weight-bold">Owner Id: </label>
+            <input type="text" id="owner-id" class="form-control" minlength="10" maxlength="10" required/>
+        </form>
+        <div class="col-md-4 float-left p-2 mt-3">
+            <button type="button" class="btn btn-warning mb-1" id="create-session-button">
+                <span class="spinner-grow spinner-grow-sm text-dark" id="create-session-animation" role="status" aria-hidden="true" hidden></span>
+                New 📝</button><br>
+            <button type="button" class="btn btn-success mb-1" id="start-session-button">
+                <span class="spinner-grow spinner-grow-sm text-dark" id="start-session-animation" role="status" aria-hidden="true" hidden></span>
+                Start 🏁</button><br>
+            <button type="button" class="btn btn-danger mb-1" id="stop-session-button">
+                <span class="spinner-grow spinner-grow-sm text-dark" id="stop-session-animation" role="status" aria-hidden="true" hidden></span>
+                Stop ✋</button><br>
+            <button type="button" class="btn btn-info" id="submit-button">
+                <span class="spinner-grow spinner-grow-sm text-dark" id="submit-session-animation" role="status" aria-hidden="true" hidden></span>
+                Go 🚀</button></a>
+        </div>
+    </div>
+    <div id="link">
+        <a href="index.html" style="color: white"><b><u>I'm just a participant 😅</u></b></a>
+    </div>
+</body>
+
+</html>

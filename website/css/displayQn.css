@@ -1,0 +1,62 @@
+@charset "utf-8";
+nav {
+    font-family: 'Montserrat';
+    /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+    /* font-family: "Baloo Tamma 2", cursive; */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+#answer-input {
+    width: 60%;
+}
+
+#comment-input {
+    width: 60%;
+}
+
+label {
+    color: white;
+    font-family: "Baloo Tamma 2", cursive;
+    font-size: 1.2em;
+}
+
+#showQn {
+    color: #2bff0f;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+#AQ{
+    color: #2bff0f;
+}
+
+#question {
+    color: white;
+    font-size: 1.3em;
+}
+
+#comment {
+    color: #2bff0f;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+#comments {
+    color: white;
+    /* font-family: 'Montserrat'; */
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#answeredQuestion {
+    color: white;
+    font-family: "Baloo Tamma 2", cursive;
+    font-size: 1.3em;
+}
+
+#post-comment {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#answer-question-button {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}

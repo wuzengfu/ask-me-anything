@@ -1,0 +1,28 @@
+@charset "utf-8";
+nav {
+    font-family: 'Montserrat';
+    /* font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+    /* font-family: "Baloo Tamma 2", cursive; */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+#FUquestion-input {
+    width: 60%;
+}
+
+h3 {
+    color: #2bff0f;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+#question {
+    color: white;
+    font-size: 1.3em;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+#ask-FUquestion-button {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
